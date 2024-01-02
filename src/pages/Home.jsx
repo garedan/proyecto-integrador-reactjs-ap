@@ -7,7 +7,8 @@ const Home = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       const response = await fetch(
-        "https://rest-api-deploy-dev-szgb.4.us-1.fl0.io/products",
+        //"https://rest-api-deploy-dev-szgb.4.us-1.fl0.io/products",
+        "https://api-productos-dcb0.onrender.com/products",
         //"http://localhost:1234/products",
         {
           headers: {
